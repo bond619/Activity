@@ -1,5 +1,6 @@
 body {
   padding-top: 54px;
+  height: 100%;
 }
 
 @media (min-width: 992px) {
@@ -10,10 +11,12 @@ body {
 
 .portfolio-item {
   margin-bottom: 30px;
+  
 }
 
 .pagination {
   margin-bottom: 30px;
+    height: 100%;
 }
 a:link, a:visited { 
     color: grey;
