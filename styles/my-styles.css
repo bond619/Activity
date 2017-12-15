@@ -1,3 +1,6 @@
+body{
+  padding: 0%;
+}
 a:link, a:visited { 
     color: grey;
     text-decoration: none;
@@ -5,7 +8,8 @@ a:link, a:visited {
 }
 
 a:link:active, a:visited:active { 
-    color: (internal value);
+   
+  cursor: pointer;
 }
 a:link:hover {
   color: brown;
@@ -58,4 +62,7 @@ a:link:hover {
 .mod {
 color: black;
   font-size: 50px;
+}
+.class1 {
+   cursor: pointer;
 }
